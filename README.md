@@ -29,3 +29,5 @@ Here is a quick view at the accuracy difference between Laser Only and Radar Onl
 ![alt text][image4]
 
 The RMSE values of the Radar only run is much higher than that of the Laser Only run. This could be due to the fact that the Radar generated data in a polar coordinate system. This means that errors can be induced during data conversions.
+
+Also, the RMSE values for the Unscented Kalman filter is quite a bit lower than that of the Exteneded Kalman filter especially in terms of the velocity values. This is due to the strength that the Unscented Kalman filter has in terms of non-linearities.
